@@ -13,6 +13,6 @@ class Solution:
         for i in range(len(nums)):
             n = nums[i]
             if n in nums_dict:
-                return[nums_dict[n], i]
+                return nums_dict[n], i
             else:
                 nums_dict[target -n] =i
